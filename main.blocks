@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="h$*)DRh8^aqEP^/m6h7U">mySprite</variable><variable type="KIND_SpriteKind" id="N;CUXiNiHLh3)8:}snAy">Player</variable><variable type="KIND_SpriteKind" id="k$?$i=+$$aS55L+dqxxT">Projectile</variable><variable type="KIND_SpriteKind" id="SS$266(L4yyaC4uH*`z+">Food</variable><variable type="KIND_SpriteKind" id="=Y.fE/g;}+t~5PIH40|r">Enemy</variable></variables><block type="pxt-on-start" id="#Jj(-1k%!E?q969PND.!" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="A%seEIJi.jdq5cnt`(Ph"><field name="VAR" id="h$*)DRh8^aqEP^/m6h7U">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="r`X|0)`+H65iCksLaqZ!"><value name="img"><shadow type="screen_image_picker" id="*._k_%K`y!w59TJ;K/7_"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="11wyT4$HHuVC8JL6a[YR"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="7!FWhKH}[JJ=J*J+b~j^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="e*Pcq7QME5UJrR!]4l@v"><field name="VAR" id="h$*)DRh8^aqEP^/m6h7U">mySprite</field></block></value></block></next></block></statement></block></xml>
