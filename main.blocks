@@ -1,21 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="N;CUXiNiHLh3)8:}snAy">Player</variable><variable type="KIND_SpriteKind" id="k$?$i=+$$aS55L+dqxxT">Projectile</variable><variable type="KIND_SpriteKind" id="SS$266(L4yyaC4uH*`z+">Food</variable><variable type="KIND_SpriteKind" id="=Y.fE/g;}+t~5PIH40|r">Enemy</variable><variable id="h$*)DRh8^aqEP^/m6h7U">mySprite</variable><variable id="#1+bNsqh_J[q[AeU)g-9">mySprite2</variable><variable id="rHsg_P(cpPF[3CO^y|SH">Hero</variable><variable id="02jRv-8gny*3sQ5^5*JP">Leve</variable><variable type="BLOCKLY_TILESET_TYPE" id="E9T`GT2]}(=P`k_c?C)p">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="$+E)^pn6[T.*@Q}2O7%G">1;16;16;7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777</variable><variable type="BLOCKLY_TILESET_TYPE" id="a;FWSi~/d%/Hn^G,Ks#i">2;16;16;0000000000000000f0ffffff0f000000f0000000f0fffffff0f00fff00f000f0f0f0000ff000f0f0fff0f0ffffff0ff0000000000f000f00fff0ffff0fff0ff0f0f0000000000f0ff0f0f000000f0f0ff0f0f0ff0f0f0f0ff0f00000000f0f0ff0f0ffffff0f0f0ff000000000000f0ff0ffff0fffff0f0f000000ff0f00000f</variable><variable type="BLOCKLY_TILESET_TYPE" id="PrsdrDLAoJLR#LQ[BlsL">3;16;16;ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</variable><variable type="BLOCKLY_TILESET_TYPE" id="XeHtG50}n|Xo#5Hfm*-!">4;16;16;3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333</variable></variables><block type="pxt-on-start" id="#Jj(-1k%!E?q969PND.!" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor" id="WVn(=]M`1@XMW/AhL%`m"><field name="tilemap">tiles.createTilemap(
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="N;CUXiNiHLh3)8:}snAy">Player</variable><variable type="KIND_SpriteKind" id="k$?$i=+$$aS55L+dqxxT">Projectile</variable><variable type="KIND_SpriteKind" id="SS$266(L4yyaC4uH*`z+">Food</variable><variable type="KIND_SpriteKind" id="=Y.fE/g;}+t~5PIH40|r">Enemy</variable><variable id="h$*)DRh8^aqEP^/m6h7U">mySprite</variable><variable id="#1+bNsqh_J[q[AeU)g-9">mySprite2</variable><variable id="rHsg_P(cpPF[3CO^y|SH">Hero</variable><variable id="02jRv-8gny*3sQ5^5*JP">Leve</variable><variable type="BLOCKLY_TILESET_TYPE" id="CD8|:oUN/6.V.?|[d`vW">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="POQhQPh%;5O+~^PmxCd_">1;16;16;7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777</variable><variable type="BLOCKLY_TILESET_TYPE" id="}dMo*QcoY:h6FU[g1M~(">2;16;16;0000000000000000f0ffffff0f000000f0000000f0fffffff0f00fff00f000f0f0f0000ff000f0f0fff0f0ffffff0ff0000000000f000f00fff0ffff0fff0ff0f0f0000000000f0ff0f0f000000f0f0ff0f0f0ff0f0f0f0ff0f00000000f0f0ff0f0ffffff0f0f0ff000000000000f0ff0ffff0fffff0f0f000000ff0f00000f</variable><variable type="BLOCKLY_TILESET_TYPE" id="N--r@drs80Vd?++NRaxy">3;16;16;ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</variable><variable type="BLOCKLY_TILESET_TYPE" id="W%u9Q%fFO%Xj,{[A}Aj/">4;16;16;3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333</variable></variables><block type="pxt-on-start" id="#Jj(-1k%!E?q969PND.!" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor" id="WVn(=]M`1@XMW/AhL%`m"><field name="tilemap">tiles.createTilemap(
             hex`1000100005050505050505050505050505050505050707070707070707070707070707050507070707070707070707070707070505070707070707070707070707070705050707070707070707070707070707050507070707070707070707070707070505070707070707070707070707070705050707070707070707070707070707050507070707070707070707070707070505070707070707070707070707070705050707070707070707070707070707050507070707070707070707070707070505070707070707070707070707070705050707070707070707070707070707050507070707070707070707070707070505050505050505050505050505050505`,
             img`
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . . . . . 2 . 2 . 2 . . 
+. . 2 2 2 2 2 2 2 2 2 . . . 2 . 
+. . 2 . . . . . . . . . 2 . 2 . 
+. . 2 . 2 2 2 . 2 2 2 2 2 . 2 . 
+. . 2 . 2 . . . . . . . 2 . 2 . 
+. . . . . . . 2 2 2 2 . . . 2 . 
+. . 2 . 2 . . . . . 2 2 2 . . . 
+. . 2 . 2 . 2 . . . 2 . . . 2 . 
+. . 2 . 2 . 2 2 2 . 2 . 2 2 2 . 
+. . 2 . 2 . . . . . 2 . . . 2 . 
+. . 2 . 2 2 2 2 2 2 2 2 . . 2 . 
+. . 2 . . . . . . . . . . 2 2 . 
+. . 2 2 . 2 2 2 2 2 2 2 2 2 . . 
+. . . 2 . 2 . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `,
             [myTiles.tile0,sprites.castle.tilePath4,sprites.castle.tileGrass1,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,sprites.castle.tileDarkGrass3],
